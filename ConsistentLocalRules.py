@@ -23,6 +23,7 @@ Notation
     
         
 @author: Yaron Shaposhnik (yaron.shaposhnik@gmail.com)
+@modifier: QQ
 
 """
 from sklearn.base import BaseEstimator, ClassifierMixin
@@ -875,6 +876,3 @@ if __name__ == "__main__":
         #df_explanations = explainer.explain(X, Y_global, objective='SUPPORT', n_explanations=10, max_features=9999, max_runtime=60)
         df_explanations = explainer.explain(X_one, Y_one, objective='SUPPORT', n_explanations=10, max_features=9999, max_runtime=60)
         print(df_explanations)
-        
-        
-        
