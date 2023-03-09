@@ -32,7 +32,8 @@ import pandas as pd
 from matplotlib import cm
 import matplotlib.pyplot as plt
 import pulp
-from pulp.solvers import GUROBI
+# from pulp.solvers import GUROBI
+from pulp import GUROBI
 import time
 import operator
 from datetime import datetime
